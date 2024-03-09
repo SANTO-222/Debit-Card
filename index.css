@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightgray;
+    justify-content: center;
+    display:flex;
+}
+.container{
+    width: 450px;
+     height: 260px;
+margin-top: 15%;
+color: white;
+
+}
+.container .card{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0 1px 1px;
+border: solid 2px gainsboro;
+font-size: 20px;
+
+}
+.container .card:hover{
+    transform: rotatey(360deg);
+    transition-duration: 3s;
+    cursor: pointer;
+    transition-delay: 0.5s;
+    animation-iteration-count:5;
+}
+
+.container .card .header{
+    display: flex;
+    align-items: center;
+
+}
+
+.ms{
+    width: 60px;
+}
+.container .card .header .icon{
+    margin-left: 120px;
+}
+.container .card .header .ms ,img{
+    margin-left: 15px;
+}
+.header{
+    padding: 10px;
+}
+.card .card-holder{
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+.card .details{
+    letter-spacing: 1px;
+    margin-left: 30px;
+    margin-top: 40px;
+    align-items: flex-end;
+    justify-content: center;
+}
+.card .details, h5{
+    letter-spacing:3px;
+}
+.card .details .cn{
+    margin-top: 5px;
+}
+.card .details .valid-thru .card-holder ,h5{
+    margin-right: 30px;}
+    .card .details .valid-thru .card-holder ,h6{
+        margin-left: 40px;
+    }
